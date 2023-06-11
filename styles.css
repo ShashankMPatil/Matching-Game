@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/background.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+.mycontainer{
+    background-color:#e9edc9;
+    color: #006d77;
+    border-radius: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 10px solid #ffb703;
+}
+
+.grid{
+    border-radius: 2rem;
+    
+    padding: 2rem;
+    margin: 0px;
+    height: 370px;
+    width: 500px;
+    
+}
+
+.grid img{
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 5px solid #ffb703;
+    padding: 5px;
+    border-radius: 2rem;
+}
+
+h1,h2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
